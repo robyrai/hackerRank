@@ -1,9 +1,7 @@
-import java.io.IOException;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class CavityMap {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         String[] grid = {"1112", "1912", "1892", "1234"};
         String[] result = cavityMap(grid);
 
